@@ -14,7 +14,10 @@ def bornes():
     global nb_minimum, nb_maximum
     nb_minimum = int(input("Décidez le nombre minimum que je peux choisir:"))
     nb_maximum = int(input("Décider le nombre maximum que je peux choisir:"))
-
+    """"
+    Cette fonction est invoqué à chaque fois que le jeu recommence
+    Elle sert à définir les bornes du nombre aléatoire que l'ordinateur peut choisir en demandant au joueur de donner ses limites.
+    """
 while start_jeu:
     print("Mon but est de vous faire deviner un nombre que j'ai choisi aléatoirement.")
     bornes()
